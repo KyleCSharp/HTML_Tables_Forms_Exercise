@@ -1,13 +1,115 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML Tables and Forms</title>
-  </head>
-  <body>
-    <main>
-      <!-- Complete the Exercises HERE -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Exercise 1: Table Structure -->
+    <main><section>
+        <table>
+        
+            
+            <thead>
+                <tr>
+                    <th>Drink</th>
+                    <th>Total Servings</th>
+                    <th>Serving Size</th>
+                    <th>Calories per Serving</th>
+                    <th>Carbs per Serving</th>
+                    <th>Sugars per Serving</th>
+                    <th>Sodium per Serving</th>
+                </tr>
+            </thead>
+            
+            <!-- Exercise 2: Data for Drinks -->
+       
+            <tbody>
+                <tr>
+                    <td>Coca Cola</td>
+                    <td>1 serving per container</td>
+                    <td>1 Bottle (20 FL OZ)</td>
+                    <td>240</td>
+                    <td>65%</td>
+                    <td>65g</td>
+                    <td>75mg</td>
+                </tr>
+                <tr>
+                    <td>Coca Cola Zero</td>
+                    <td>1 serving per container</td>
+                    <td>1 Can (12 FL OZ)</td>
+                    <td>0</td>
+                    <td>0g</td>
+                    <td>0g</td>
+                    <td>40mg</td>
+                </tr>
+                <tr>
+                    <td>Pepsi</td>
+                    <td>1 serving per container</td>
+                    <td>1 Can (12 FL OZ)</td>
+                    <td>Approximately 150</td>
+                    <td>Around 41g</td>
+                    <td>About 41g</td>
+                    <td>Around 30mg</td>
+                </tr>
+                <tr>
+                    <td>Dr. Pepper</td>
+                    <td>1 serving per container</td>
+                    <td>1 Can (12 FL OZ)</td>
+                    <td>Approximately 150</td>
+                    <td> Around 40g</td>
+                    <td>About 40g</td>
+                    <td>Around 55mg</td>
+                </tr>
+                <tr>
+                    <td>Mountain Dew</td>
+                    <td>1 serving per container</td>
+                    <td>1 Can (12 FL OZ)</td>
+                    <td> Approximately 170</td>
+                    <td>Around 46g</td>
+                    <td>About 46g</td>
+                    <td>Around 60mg</td>
+                </tr>
+            
+
+            
+            </tbody>
+       
+        </table> 
+    </section>
+        <!-- Exercise 3: Form -->
+        <section>
+        <form>
+          <label for="Drink">Drink:</label>
+          <input type="text" id="Drink" name="Drink">
+
+            <label for="totalServings">Total Servings:</label>
+            <input type="text" id="totalServings" name="totalServings">
+
+            <label for="servingSize">Serving Size:</label>
+            <input type="text" id="servingSize" name="servingSize">
+
+            <label for="caloriesPerServing">Calories per Serving:</label>
+            <input type="text" id="caloriesPerServing" name="caloriesPerServing">
+
+            <label for="carbsPerServing">Carbs per Serving:</label>
+            <input type="text" id="carbsPerServing" name="carbsPerServing">
+
+            <label for="sugarsPerServing">Sugars per Serving:</label>
+            <input type="text" id="sugarsPerServing" name="sugarsPerServing">
+
+            <label for="sodiumPerServing">Sodium per Serving:</label>
+            <input type="text" id="sodiumPerServing" name="sodiumPerServing">
+
+            <button type="submit">Submit</button>
+            <!-- Left as text -->
+        </form>
+    </section>
     </main>
-  </body>
+
+</body>
 </html>
+

@@ -1,0 +1,73 @@
+
+body 
+{
+    min-height: 100vh;
+    background: linear-gradient(to bottom right, white, red);
+    margin: 0;
+}
+
+/* Add some basic styling to the table for better visibility */
+table 
+{
+    width: 100%;
+    border-collapse: collapse;
+    overflow-x: auto; /* Add this property to enable horizontal scrolling */
+}
+
+th, td 
+{
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+
+main 
+{
+    max-width: 800px;
+    margin: 24px auto;
+    text-align: center;
+    padding: 0 16px;
+    box-sizing: border-box;
+}
+
+section 
+{
+    border-radius: 10px;
+    background: linear-gradient(to bottom right, white, gray);
+    box-shadow: 5px 5px 10px black;
+    margin: 30px 0;
+    overflow-x: auto; 
+    max-width: 100%; 
+}
+
+label, input 
+{
+    display: block;
+    padding: 12px;
+    margin: 5px auto;
+   
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+input:focus 
+{
+    background-color: yellow;
+}
+
+/* Media query for screens smaller than 1000px */
+@media screen and (max-width: 1000px) 
+{
+    main 
+    {
+        max-width: 100%;
+    }
+
+    label, input 
+    {
+        max-width: 300px
+}
+
+}
